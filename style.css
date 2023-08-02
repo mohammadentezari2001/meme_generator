@@ -1,0 +1,98 @@
+body {
+    background-color: #1D2326;
+    color: rgb(70, 250, 181);;
+    font-family: monospace;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  img {
+    border: 1px solid white;
+    border-radius: 5px;
+    max-width: 350px;
+    max-height: 380px;
+    width: 100%;
+  }
+  
+  p {
+    color: #8097A6;
+  }
+  
+  .attribution {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 0.8rem;
+    background-color: #8097A6;
+    padding: 10px;
+    border-radius: 5px;
+    color: #1D2326;
+    box-shadow: 1px 2px 5px 1px rgba(255,255,255, 0.2);
+  }
+  
+  a {
+    color: white;
+  }
+  
+  a:hover {
+    opacity: 0.8;
+  }
+  
+  .content {
+    width: 65%;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  
+  .content p {
+    max-width: 80%;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 1px groove rgb(70,250, 181);
+    height: 100vh;
+    margin-top: 40px;
+  }
+  
+  button {
+    width: 200px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    border: 2px solid rgb(250, 76, 70);
+    /* background: transparent; */
+    background-color: coral;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.1)
+  }
+  
+  .reveal-btn {
+    border: none;
+    text-decoration: dotted;
+    margin: 0;
+  }
+  
+  .reveal-btn:hover {
+    color: white;
+    background-color: transparent;
+  }
+
+
+  h1{
+    margin-top: 40px;
+
+  }
